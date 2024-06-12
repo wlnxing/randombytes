@@ -1,5 +1,7 @@
 'use strict'
 
+import { Buffer } from "buffer"
+
 // limit of Crypto.getRandomValues()
 // https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues
 const MAX_BYTES = 65536
